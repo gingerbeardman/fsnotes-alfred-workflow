@@ -1,10 +1,10 @@
 # FSNotes Alfred Workflow
 
-For use with [FSNotes](https://github.com/gingerbeardman/fsnotes-alfred-workflow)
+For use with [FSNotes](https://github.com/gingerbeardman/fsnotes-alfred-workflow) and [Alfred](https://www.alfredapp.com).
 
 ## Overview
 
-This [Alfred](https://www.alfredapp.com) workflow offers the following functions:
+This workflow offers the following functions:
 
 - <kbd>fsf</kbd> Open... _(choose from list of files in FSNotes default storage folder, required)_
 - <kbd>fsi</kbd> Import... _(matches filename or phrase, required)_
