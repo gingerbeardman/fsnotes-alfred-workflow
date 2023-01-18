@@ -294,6 +294,7 @@
 				<string></string>
 				<key>scopes</key>
 				<array>
+					<string>~/Library/Containers/co.fluder.FSNotes/Data/Documents</string>
 					<string>~/Library/Mobile Documents/iCloud~co~fluder~fsnotes/Documents</string>
 				</array>
 				<key>sortmode</key>
@@ -589,24 +590,9 @@ This workflow offers the following triggers:
 * `fsi` — File filter to add a selected
 
 
-## Changelog
+## Documentation
 
-2.2
-+ Remove the dependency on Python which no longer comes with macOS (thanks to iandol)
-
-2.1
-+ Fixed: Create from Clipboard...
-
-2.0
-+ Added: Import... feature
-+ Added: Encrypted TextPack .etp support
-- Removed: Create blank note (use Create...)
-
-1.0
-+ Added: Open...
-+ Added: Search...
-+ Added: Create...
-+ Added: Create from Clipboard...</string>
+https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 	<key>uidata</key>
 	<dict>
 		<key>014460B8-8DDC-48C3-BD65-8DD457E3FA01</key>
@@ -723,7 +709,7 @@ This workflow offers the following triggers:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.2</string>
+	<string>2.3</string>
 	<key>webaddress</key>
 	<string>http://www.gingerbeardman.com</string>
 </dict>
