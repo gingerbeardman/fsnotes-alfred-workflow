@@ -1,6 +1,6 @@
 # FSNotes Alfred Workflow
 
-For use with [FSNotes](https://github.com/gingerbeardman/fsnotes-alfred-workflow) and [Alfred](https://www.alfredapp.com).
+For use with [FSNotes](https://github.com/glushchenko/fsnotes/) and [Alfred](https://www.alfredapp.com).
 
 ## Overview
 
