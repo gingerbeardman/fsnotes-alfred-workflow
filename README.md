@@ -45,3 +45,6 @@ To choose from a list of all functions use the <kbd>fs</kbd> keyword.
 Modify the Workflow in Alfred:
 - change the default FSNotes folder if you use a different one
 - remove recognised file types if you do not want to use them all
+
+## Licence
+[MIT](https://github.com/gingerbeardman/fsnotes-alfred-workflow/blob/main/LICENSE)
