@@ -1,7 +1,7 @@
 # Changelog
 
 2.3
-+ Make sure scope includes default locations for both Mac App Store and GitHub releases of FSNotes
++ Make sure scope includes default storage locations for both Mac App Store and GitHub releases of FSNotes
 
 2.2
 + Remove the dependency on Python which no longer comes with macOS (thanks to [iandol](https://github.com/iandol))
