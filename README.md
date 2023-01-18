@@ -14,8 +14,7 @@ This [Alfred](https://www.alfredapp.com) workflow offers the following functions
 To choose from a list of all functions use the <kbd>fs</kbd> keyword.
 
 ## Download
-[FSNotes Alfred Workflow](https://github.com/glushchenko/fsnotes/files/10324668/FSNotes-AlfredWorkflow-22.zip)
-(version 2.2)
+[Latest release](https://github.com/gingerbeardman/fsnotes-alfred-workflow/releases)
 
 ## Changelog
 
