@@ -15,7 +15,7 @@ This workflow offers the following functions:
 To choose from a list of all functions use the <kbd>fs</kbd> keyword.
 
 ## Download
-[Latest release](https://github.com/gingerbeardman/fsnotes-alfred-workflow/releases)
+[Latest release](https://github.com/gingerbeardman/fsnotes-alfred-workflow/releases/latest)
 
 ## Changelog
 [History of changes](https://github.com/gingerbeardman/fsnotes-alfred-workflow/blob/main/CHANGELOG.md)
