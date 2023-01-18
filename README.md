@@ -18,7 +18,7 @@ To choose from a list of all functions use the <kbd>fs</kbd> keyword.
 [Latest release](https://github.com/gingerbeardman/fsnotes-alfred-workflow/releases)
 
 ## Changelog
-[History of changes](https://github.com/gingerbeardman/fsnotes-alfred-workflow/blob/main/CHANGELOG)
+[History of changes](https://github.com/gingerbeardman/fsnotes-alfred-workflow/blob/main/CHANGELOG.md)
 
 ## Screenshots
 > ![Screen shot 2019-06-07 at 14 41 06](https://user-images.githubusercontent.com/49612/59108347-956f9a00-8932-11e9-9026-1d34f44cdfb9.png)
