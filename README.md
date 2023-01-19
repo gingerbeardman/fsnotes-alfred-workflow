@@ -11,6 +11,8 @@ This workflow offers the following functions:
 - <kbd>fss</kbd> Search... _(matches filename or phrase, required)_
 - <kbd>fsc</kbd> Create from Clipboard... _(specify title, optional)_
 - <kbd>fsn</kbd> Create... _(specify title, optional)_
+- Universal Action to import text selected or from Clipboard History... _(specify title, optional)_
+- File Action to add a file
 
 To choose from a list of all functions use the <kbd>fs</kbd> keyword.
 
