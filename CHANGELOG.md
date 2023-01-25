@@ -1,7 +1,7 @@
 # Changelog
 
 2.5
-+ Added: weekly journal triggers `fsj` and <kbd>Cmd+J</kbd>
++ Added: weekly journal triggers `fsj` and <kbd>Cmd+Alt+J</kbd>
 
 2.4
 + Added: Universal Action to import Selected Text or from Clipboard History ([vitorgalvao](https://github.com/vitorgalvao))
