@@ -8,11 +8,37 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>209A5E0E-C177-413B-8DD0-E53D9A7A2A65</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCA3626D-4653-40D5-AE8F-E8F3CABD4CDB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>23B67ECD-1869-4914-8F53-E5C6E1E67D4D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>33121385-EA18-4A9A-982B-212005998304</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C9C0EC2-C58F-408E-84AC-F85B94E4F5D7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -88,6 +114,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>8FBFB864-7599-4198-A259-0C6E4DF4C1E4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCA3626D-4653-40D5-AE8F-E8F3CABD4CDB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BCA3626D-4653-40D5-AE8F-E8F3CABD4CDB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33121385-EA18-4A9A-982B-212005998304</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C3B33938-9067-40CA-AE28-41D23F563D6D</key>
 		<array>
 			<dict>
@@ -154,27 +206,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>fss</string>
-				<key>subtext</key>
-				<string>Specify search phrase</string>
-				<key>text</key>
-				<string>Search...</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C3B33938-9067-40CA-AE28-41D23F563D6D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>skipqueryencode</key>
@@ -190,6 +221,27 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>014460B8-8DDC-48C3-BD65-8DD457E3FA01</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>fss</string>
+				<key>subtext</key>
+				<string>Specify search phrase</string>
+				<key>text</key>
+				<string>Search...</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C3B33938-9067-40CA-AE28-41D23F563D6D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -232,27 +284,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>5FADA805-B74A-41BF-8350-297178DDF691</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string>%20</string>
-				<key>url</key>
-				<string>fsnotes://find/{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>E6CA6A6C-4011-43B6-9376-007BD4C6C826</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -354,6 +385,27 @@
 			<string>EF1F8326-75C4-481B-9ECE-CAE81C096C4B</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string>%20</string>
+				<key>url</key>
+				<string>fsnotes://find/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E6CA6A6C-4011-43B6-9376-007BD4C6C826</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -493,6 +545,122 @@
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>fsj</string>
+				<key>subtext</key>
+				<string>Title will be year and week</string>
+				<key>text</key>
+				<string>Create weekly journal entry...</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>209A5E0E-C177-413B-8DD0-E53D9A7A2A65</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string>%20</string>
+				<key>url</key>
+				<string>fsnotes://new/?title={var:title}&amp;txt=%23%20{var:title}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0C9C0EC2-C58F-408E-84AC-F85B94E4F5D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n $(date +%Y-w%U)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BCA3626D-4653-40D5-AE8F-E8F3CABD4CDB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>title</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>33121385-EA18-4A9A-982B-212005998304</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>38</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>J</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8FBFB864-7599-4198-A259-0C6E4DF4C1E4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
 				<string>fsc</string>
@@ -556,6 +724,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>acceptsfiles</key>
 				<false/>
 				<key>acceptsmulti</key>
@@ -573,25 +760,6 @@
 			<string>23B67ECD-1869-4914-8F53-E5C6E1E67D4D</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -639,6 +807,22 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>ypos</key>
 			<real>30</real>
 		</dict>
+		<key>0C9C0EC2-C58F-408E-84AC-F85B94E4F5D7</key>
+		<dict>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>770</real>
+		</dict>
+		<key>209A5E0E-C177-413B-8DD0-E53D9A7A2A65</key>
+		<dict>
+			<key>note</key>
+			<string>New titled note from clipboard</string>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>770</real>
+		</dict>
 		<key>23B67ECD-1869-4914-8F53-E5C6E1E67D4D</key>
 		<dict>
 			<key>note</key>
@@ -646,7 +830,14 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>xpos</key>
 			<real>225</real>
 			<key>ypos</key>
-			<real>950</real>
+			<real>1100</real>
+		</dict>
+		<key>33121385-EA18-4A9A-982B-212005998304</key>
+		<dict>
+			<key>xpos</key>
+			<real>565</real>
+			<key>ypos</key>
+			<real>800</real>
 		</dict>
 		<key>45CB2A3E-7B07-4E8A-A702-9CB9EB8FDCD0</key>
 		<dict>
@@ -655,14 +846,14 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>xpos</key>
 			<real>610</real>
 			<key>ypos</key>
-			<real>980</real>
+			<real>1130</real>
 		</dict>
 		<key>46D37702-C3E3-4E6D-B67F-A575E6E60569</key>
 		<dict>
 			<key>xpos</key>
 			<real>490</real>
 			<key>ypos</key>
-			<real>765</real>
+			<real>935</real>
 		</dict>
 		<key>4CCAADAB-A681-45A8-A2EB-999EBE0FC3D6</key>
 		<dict>
@@ -671,7 +862,7 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>xpos</key>
 			<real>225</real>
 			<key>ypos</key>
-			<real>765</real>
+			<real>935</real>
 		</dict>
 		<key>5FADA805-B74A-41BF-8350-297178DDF691</key>
 		<dict>
@@ -692,7 +883,7 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>xpos</key>
 			<real>400</real>
 			<key>ypos</key>
-			<real>795</real>
+			<real>965</real>
 		</dict>
 		<key>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</key>
 		<dict>
@@ -701,7 +892,7 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<key>xpos</key>
 			<real>405</real>
 			<key>ypos</key>
-			<real>950</real>
+			<real>1100</real>
 		</dict>
 		<key>8991B972-F0E9-404C-9C4F-ADAB9F89C597</key>
 		<dict>
@@ -711,6 +902,20 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 			<real>225</real>
 			<key>ypos</key>
 			<real>475</real>
+		</dict>
+		<key>8FBFB864-7599-4198-A259-0C6E4DF4C1E4</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>805</real>
+		</dict>
+		<key>BCA3626D-4653-40D5-AE8F-E8F3CABD4CDB</key>
+		<dict>
+			<key>xpos</key>
+			<real>400</real>
+			<key>ypos</key>
+			<real>770</real>
 		</dict>
 		<key>C3B33938-9067-40CA-AE28-41D23F563D6D</key>
 		<dict>
@@ -759,7 +964,7 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>version</key>
-	<string>2.4</string>
+	<string>2.5</string>
 	<key>webaddress</key>
 	<string>http://www.gingerbeardman.com</string>
 </dict>
