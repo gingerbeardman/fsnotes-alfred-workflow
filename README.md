@@ -11,6 +11,7 @@ This workflow offers the following functions:
 - <kbd>fss</kbd> Search... _(matches filename or phrase, required)_
 - <kbd>fsc</kbd> Create from Clipboard... _(specify title, optional)_
 - <kbd>fsn</kbd> Create... _(specify title, optional)_
+- <kbd>fsj</kbd> Create weekly journal note
 - Universal Action to import Selected Text or from Clipboard History... _(specify title, optional)_
 - File Action to add a file
 
