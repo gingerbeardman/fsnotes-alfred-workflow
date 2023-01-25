@@ -724,25 +724,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>acceptsfiles</key>
 				<false/>
 				<key>acceptsmulti</key>
@@ -760,6 +741,25 @@
 			<string>23B67ECD-1869-4914-8F53-E5C6E1E67D4D</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7F4374FA-09BB-4356-8EDF-F14DC2E3F4BD</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -791,6 +791,7 @@ This workflow offers the following triggers:
 * `fsc` — Create new note from Clipboard with optional title
 * `fsf` — Search notes as files
 * `fsi` — File filter to add a selected
+* `fsj` — Create weekly journal note
 * Universal Action to import text selected or from Clipboard History
 * File Action to add a file
 
@@ -962,6 +963,8 @@ https://github.com/gingerbeardman/fsnotes-alfred-workflow</string>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
 	<string>2.5</string>
